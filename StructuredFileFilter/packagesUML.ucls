@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="application.chart.management" project="2021-22_AM1_AM2_AM3_StructuredFileFilter" 
+    file="/2021-22_AM1_AM2_AM3_StructuredFileFilter/src/application/chart/management" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="165" y="107"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="application.jtable.management" 
+    project="2021-22_AM1_AM2_AM3_StructuredFileFilter" 
+    file="/2021-22_AM1_AM2_AM3_StructuredFileFilter/src/application/jtable/management" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="484" y="92"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="application.naive.client" project="2021-22_AM1_AM2_AM3_StructuredFileFilter" 
+    file="/2021-22_AM1_AM2_AM3_StructuredFileFilter/src/application/naive/client" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="153" x="442" y="184"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="file.manager" project="2021-22_AM1_AM2_AM3_StructuredFileFilter" 
+    file="/2021-22_AM1_AM2_AM3_StructuredFileFilter/src/file/manager" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="379" y="356"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="filtering" project="2021-22_AM1_AM2_AM3_StructuredFileFilter" 
+    file="/2021-22_AM1_AM2_AM3_StructuredFileFilter/src/filtering" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="85" y="321"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="metadata" project="2021-22_AM1_AM2_AM3_StructuredFileFilter" 
+    file="/2021-22_AM1_AM2_AM3_StructuredFileFilter/src/metadata" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="66" y="196"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
